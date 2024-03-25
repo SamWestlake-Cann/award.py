@@ -26,7 +26,7 @@ total_time = swim_time + cycle_time + run_time #store time of all added together
 
 print("The total time for your triathlon is " + str(total_time) + " minutes\n") #print response as total_time in minutes
 
-
+#  Print out made more appealing 
 if total_time <= 100: #if total_time <= 100 print below
     print("***************Congratulations***************")
     print()
